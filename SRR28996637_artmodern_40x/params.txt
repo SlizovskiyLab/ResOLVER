@@ -1,0 +1,37 @@
+Command line: /scratch/gautschi/adkimbal/TELCoMB/SIM_OVERLAP_50_100BP_OUTPUT/.snakemake/conda/bf2523c8979e2ec33c908c0055f5e46f_/bin/spades.py	--meta	--phred-offset	33	-t	64	-m	120	-k	21,33,55,77,127	-1	/scratch/gautschi/adkimbal/TELCoMB/Sim_artmodern_samples/samples/SRR28996637_artmodern_40x_R1.fastq	-2	/scratch/gautschi/adkimbal/TELCoMB/Sim_artmodern_samples/samples/SRR28996637_artmodern_40x_R2.fastq	-o	/scratch/gautschi/adkimbal/TELCoMB/SIM_OVERLAP_50_100BP_OUTPUT/tmp/spades_files/SRR28996637_artmodern_40x	
+
+System information:
+  SPAdes version: 4.0.0
+  Python version: 3.8.20
+  OS: Linux-5.14.0-687.12.1.el9_8.x86_64-x86_64-with-glibc2.17
+
+Output dir: /scratch/gautschi/adkimbal/TELCoMB/SIM_OVERLAP_50_100BP_OUTPUT/tmp/spades_files/SRR28996637_artmodern_40x
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Metagenomic mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/scratch/gautschi/adkimbal/TELCoMB/Sim_artmodern_samples/samples/SRR28996637_artmodern_40x_R1.fastq']
+      right reads: ['/scratch/gautschi/adkimbal/TELCoMB/Sim_artmodern_samples/samples/SRR28996637_artmodern_40x_R2.fastq']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset: 33
+  Corrected reads will be compressed
+Assembly parameters:
+  k: [21, 33, 55, 77, 127]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /scratch/gautschi/adkimbal/TELCoMB/SIM_OVERLAP_50_100BP_OUTPUT/tmp/spades_files/SRR28996637_artmodern_40x/tmp
+  Threads: 64
+  Memory limit (in Gb): 120
+

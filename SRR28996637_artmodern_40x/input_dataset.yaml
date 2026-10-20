@@ -1,0 +1,7 @@
+- "left reads":
+  - "/scratch/gautschi/adkimbal/TELCoMB/Sim_artmodern_samples/samples/SRR28996637_artmodern_40x_R1.fastq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/scratch/gautschi/adkimbal/TELCoMB/Sim_artmodern_samples/samples/SRR28996637_artmodern_40x_R2.fastq"
+  "type": "paired-end"
